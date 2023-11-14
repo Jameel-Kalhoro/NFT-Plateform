@@ -1,15 +1,16 @@
-import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-
+import Welcome from "./components/Welcome";
+import Auctions from "./components/Auctions";
+import Discover from "./components/Discover";
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Footer />
-
+    <Header></Header>\
+    <Welcome></Welcome>
+    <Auctions></Auctions>
+    <Discover></Discover>
     </div>
   );
 }
